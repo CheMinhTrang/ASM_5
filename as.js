@@ -1,7 +1,7 @@
 const axios = require('axios').default;
 const api = 'https://api.covid19api.com/summary'
 
-async function getUser() {
+async function getDataCovid() {
     try {
       const response = await axios.get(api);
       if(response) {
